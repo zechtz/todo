@@ -12,8 +12,8 @@ The React Todo App is a simple yet powerful tool to manage your daily tasks effi
 ## Technologies Used
 
 - React (Create React App)
-- TypeScript (optional in implementation details but assumed for interfaces)
-- CSS for styling
+- TypeScript
+- TailwindCSS for styling
 
 ## Project Setup
 
@@ -23,7 +23,7 @@ To get this project up and running on your local machine, follow these steps:
 
 Ensure you have the following installed:
 
-- Node.js (version 12 or higher recommended)
+- Node.js (version 18 or higher recommended)
 - npm (usually comes with Node.js)
 
 ### Installation
