@@ -5,6 +5,7 @@ const Input = ({ label, name, type = "text", handleChange, ...rest }) => {
       type={type}
       value={name}
       placeholder={label}
+      {...rest}
       className="w-full p-2 rounded bg-black border border-gray-700 text-white placeholder-gray-400"
     />
   );
