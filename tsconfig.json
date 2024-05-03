@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "useUnknownInCatchVariables": false,
+    "strictPropertyInitialization": false,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "types": ["vite/client"],
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "./*": ["./src/*"],
+      "components/*": ["./src/components/*"],
+      "ui/*": ["./src/components/ui/*"],
+      "assets/*": ["./src/assets/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "twin.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

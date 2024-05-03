@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [type="text"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    @apply w-full border-gray-300 rounded-sm shadow-sm focus:border-gray-500 focus:ring-gray-500;
+  }
+  [type="checkbox"] {
+    @apply h-5 w-5 text-gray-500 rounded border-gray-300 focus:ring-gray-500;
+  }
+
+  [type="radio"] {
+    @apply h-5 w-5 text-gray-500 rounded-full border-gray-300 focus:ring-gray-500;
+  }
+}
+
+@layer components {
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-gray-800 text-green-500 hover:bg-green-600 rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  }
+
+  .sidebar-tooltip {
+    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 scale-0 origin-left;
+  }
+}
