@@ -31,7 +31,7 @@ Ensure you have the following installed:
 
    ```bash
    git clone git@github.com:zechtz/todo.git.git
-   cd react-todo-app
+   cd todo
    ```
 
 ```
