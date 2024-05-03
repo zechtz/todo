@@ -30,7 +30,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone git@github.com:zechtz/todo.git.git
+   git clone git@github.com:zechtz/todo.git
    cd todo
    ```
 
