@@ -24,7 +24,6 @@ To get this project up and running on your local machine, follow these steps:
 Ensure you have the following installed:
 
 - Node.js (version 18 or higher recommended)
-- npm (usually comes with Node.js)
 
 ### Installation
 
